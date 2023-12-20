@@ -1,0 +1,90 @@
+:root {
+  --transparent-black: rgba(0, 0, 0, 0.294);
+  --black: #111111;
+  --grey: rgba(255, 255, 255, 0.597);
+  --orange: #a56dd5;
+  --green: rgb(95, 221, 244);
+  --orange-gradient: linear-gradient(
+    268.35deg,
+    rgba(140, 62, 241, 0.99) 3.47%,
+    rgba(154, 96, 215, 0.99) 60.18%
+  );
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#dashboard {
+  height: 100%;
+  width: 100vw;
+  background: linear-gradient(
+    106.37deg,
+    #5ee0d3,
+    #a686f7,
+    #6a47c7 
+  );
+  color: var(--black);
+  font-family: "Public Sans", sans-serif;
+  overflow: hidden;
+}
+
+.theme-container {
+  background: rgba(172, 172, 172, 0.59);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.gradient-red {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #cfb1dd;
+  filter: blur(90px);
+}
+.gradient-orange {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: var(--orange);
+  filter: blur(90px);
+}
+.gradient-blue {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #5dc9ff;
+  filter: blur(90px);
+}
+
+.grey-container {
+  border-top: 0.3px solid rgba(255, 255, 255, 0.353);
+  border-bottom: 0.3px solid rgba(255, 255, 255, 0.462);
+  background: linear-gradient(
+    90deg,
+    rgba(127, 127, 127, 0.538) 1.21%,
+    rgba(93, 92, 92, 0.005) 49.45%,
+    rgba(121, 120, 120, 0.267) 103.83%
+  );
+  padding: 1.5rem 1rem;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  width: 5px;
+}
