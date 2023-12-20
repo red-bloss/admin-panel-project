@@ -8,7 +8,7 @@ import DataGrid from './pages/DataGrid/DataGrid';
 
 const App = () => {
   return <div id="dashboard">
-    <BrowserRouter>
+    <BrowserRouter basename='/admin-panel-project'>
       <Routes>
         <Route path="/" element={<Layout/>}>
 
