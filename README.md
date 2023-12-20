@@ -1,10 +1,10 @@
 # Getting Started
 
-Clone this repo
-yarn install to install all req'd dependencies
+Clone this repo, 
+yarn install to install all req'd dependencies,
 If yarn cannot find the vite command,
-npm install -g create-vite
-yarn add vite --dev
+npm install -g create-vite,
+yarn add vite --dev,
 yarn run dev to start the local server (this project Vite)
 
 
